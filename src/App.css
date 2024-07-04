@@ -1,0 +1,36 @@
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-top: 10px;
+}
+
+span{
+  color:#7F0799
+}
+
+.bg-container{
+  background-image: radial-gradient(#f1fffa, #ccfccb, #96E6B3, #568259, #464E47);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding-top: 50px;
+}
+
+.menu-items{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap:20px
+}
+
+.pink{
+  color:white
+}
